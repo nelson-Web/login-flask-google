@@ -25,7 +25,6 @@ google = oauth.register(
     client_kwargs={'scope': 'openid email profile'},
 )
 
-##observamos el correo cuando nos redirecciona 
 @app.route("/")
 def index():
     return f'usuario existente'
