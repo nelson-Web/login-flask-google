@@ -58,11 +58,5 @@ def authorize():
         return redirect('http://localhost:3000/inicio')
 
 
-@app.route('/registro')
-def test():
-    return "Logueado correctamente"
-
-
-
 if __name__ == "__main__":
     app.run(debug=True)
